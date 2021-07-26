@@ -80,3 +80,61 @@ nav ul li a {
 	font-weight: normal;
 	font-size: 1.5rem;
 }
+/*Imagenes*/	
+.imagenesDerecha {
+	padding: 10px;
+	margin: 10px;  
+	float: right; 
+	width: 26rem;
+	height: 15rem;
+}
+.imagenesIzquierda {
+	padding: 10px;
+	margin: 10px;  
+	float: left; 
+	width: 26rem;
+	height: 15rem;
+}
+/*Textos*/
+.textosDerecha {
+	font-size: 1.2rem;
+	padding: 10px;
+	margin: 10px;
+	text-align: right;
+}	
+.textosIzquierda {
+	font-size: 1.2rem;
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+}
+.centrar {
+	text-align: center;
+}
+.fondoGris {
+	background-color: rgb(159 165 164);
+}
+/*Animaciones*/
+.animacionIconos:hover {
+	transform: scale(1.25);
+}
+/*Index*/
+/*Comienzo Seccion PrimeraVista*/
+#PrimeraVista {
+	background-image: url(../Img/edificios1.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 85vh;
+	padding: 5px;
+	margin-top: 79px;
+}	
+.tituloprincipal {
+	background-color: rgb(159 165 164);
+	text-align: center;	
+	color: rgb(251 243 243);
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-top: 200px;
+	margin-bottom: 50px;
+	padding: 5px;
+}	
