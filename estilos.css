@@ -138,3 +138,43 @@ nav ul li a {
 	margin-bottom: 50px;
 	padding: 5px;
 }	
+/*Comienzo submenu*/
+.submenucentrado {
+	display:flex;
+    justify-content: center;
+    align-items: center;
+}	
+ul {
+	list-style:none;
+}
+#submenu > li {
+	float:left;
+}			
+#submenu li a{
+		background-color:rgb(59 79 77);
+		color:rgb(251 243 243);
+		font-size: 1.2rem;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+}	
+#submenu li a:hover {
+		background-color:rgb(159 165 164);
+}					
+#submenu li ul {
+		display:none;
+		position:absolute;
+		width:231px;
+}
+#submenu li:hover > ul {
+		display:block;
+}			
+#submenu li ul li {
+		position:relative;
+		width:209px;
+		right: 48px;
+}			
+#submenu li ul li ul {
+		top:0px;
+}
+/*Fin submenu*/
